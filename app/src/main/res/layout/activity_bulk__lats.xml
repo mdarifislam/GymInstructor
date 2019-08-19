@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lict.boommanu.Bulk_Lats">
+
+    <Button
+        android:id="@+id/buttonSeatCableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seat Cable Row"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="seatCable"/>
+
+    <Button
+        android:id="@+id/buttonLatPullDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSeatCableRow"
+        android:text="Lat Pull Down's"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="latPullDown"/>
+
+
+    <Button
+        android:id="@+id/buttonOverMarbell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLatPullDown"
+        android:text="Bent Over Marbell"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="overMarbell"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonTricep"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/buttonBicep"-->
+        <!--android:text="Tricep (Friday)"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Large" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonSquats"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/buttonTricep"-->
+        <!--android:text="Squats (Saturday)"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Large" />-->
+    <!--*/-->
+
+</RelativeLayout>

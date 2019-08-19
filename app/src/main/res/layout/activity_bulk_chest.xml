@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lict.boommanu.Bulk_Chest">
+
+    <ImageView
+        android:id="@+id/imageViewChest"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/buttonChest"
+        android:src="@drawable/chest" />
+
+    <Button
+        android:id="@+id/buttonChest"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewChest"
+        android:text="Chest (Monday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="saveChest"/>
+
+    <Button
+        android:id="@+id/buttonShoulder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonChest"
+        android:text="Shoulder (Tuesday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="shoulder"/>
+
+    <Button
+        android:id="@+id/buttonLats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonShoulder"
+        android:text="Lats (Wednesday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="lats"/>
+
+
+    <Button
+        android:id="@+id/buttonBicep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLats"
+        android:text="Bicep (Thursday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonTricep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBicep"
+        android:text="Tricep (Friday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonSquats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonTricep"
+        android:text="Squats (Saturday)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>

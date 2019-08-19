@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lict.boommanu.bulk_shoulder_Military.DescriptionDumbellPressActivity">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageStep1"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginLeft="100dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:src="@drawable/step_1" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imageStep2"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_alignBottom="@+id/imageStep1"-->
+    <!--android:layout_toRightOf="@+id/imageStep1"-->
+    <!--android:src="@drawable/step_2" />-->
+
+    <TextView
+        android:id="@+id/textViewDumbellPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Dumbell Press"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDumbellPress"
+        android:layout_marginLeft="30dp"
+        android:text="Note:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewSet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNote"
+        android:layout_marginLeft="30dp"
+        android:text="Set1:  12 Repetitions"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewSet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSet1"
+        android:layout_marginLeft="30dp"
+        android:text="Set2:  10 Repetitions"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewSet3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSet2"
+        android:layout_marginLeft="30dp"
+        android:text="Set3:    8 Repetitions"
+        android:textSize="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lict.boommanu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bulk_Chest" />
+        <activity android:name=".Bulk_Shoulder" />
+        <activity android:name=".Bulk_Lats" />
+        <activity android:name=".Bulk_Chest_Push.PushPullActivity" />
+        <activity android:name=".bulk_chest_push.PushUpsActivity" />
+        <activity android:name=".bulk_chest_push.DescriptionPullUpsActivity" />
+        <activity android:name=".bulk_chest_push.DescriptionPushUpsActivity" />
+        <activity android:name=".bulk_chest_push.DescriptionChestDipsActivity" />
+        <activity android:name=".bulk_chest_push.DescriptionDeclinePressActivity" />
+        <activity android:name=".bulk_shoulder_Military.DescriptionMilitaryPressActivity" />
+        <activity android:name=".bulk_shoulder_Military.DescriptionDumbellPressActivity" />
+        <activity android:name=".bulk_shoulder_Military.DescriptionDumbellRaiseActivity" />
+        <activity android:name=".bulk_shoulder_Military.UpRightRowsActivity" />
+        <activity android:name=".bulk_lats_seatCable.DescriptionSeatCableRowActivity" />
+        <activity android:name=".bulk_lats_seatCable.DescriptionLatPullDownActivity" />
+        <activity android:name=".bulk_lats_seatCable.DescriptionOverMarbellActivity"></activity>
+    </application>
+
+</manifest>

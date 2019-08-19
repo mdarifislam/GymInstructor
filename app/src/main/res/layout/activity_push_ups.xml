@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lict.boommanu.bulk_chest_push.PushUpsActivity">
+
+    <Button
+        android:id="@+id/buttonPushUps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push Ups"
+        android:onClick="pushUps"/>
+    <Button
+        android:id="@+id/buttonPullUps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pull Ups"
+        android:layout_below="@+id/buttonPushUps"
+        android:onClick="pullUps"/>
+    <Button
+        android:id="@+id/buttonChestDips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chest Dips"
+        android:layout_below="@+id/buttonPullUps"
+        android:onClick="chestDips"/>
+    <Button
+        android:id="@+id/buttonDeclinePress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decline Press"
+        android:layout_below="@+id/buttonChestDips"
+        android:onClick="declinePress"/>
+
+</RelativeLayout>

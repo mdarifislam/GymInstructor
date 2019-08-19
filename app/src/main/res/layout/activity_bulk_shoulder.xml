@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lict.boommanu.Bulk_Shoulder">
+
+    <Button
+        android:id="@+id/buttonMilitary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Military Press"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="military"/>
+
+    <Button
+        android:id="@+id/buttonDumbell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonMilitary"
+        android:text="Dumbell Prss"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="dumbell"/>
+
+    <Button
+        android:id="@+id/buttonDumbellRaise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDumbell"
+        android:text="Dumbell lateral raise"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="dumbellRaise"/>
+
+    <Button
+        android:id="@+id/buttonUpRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDumbellRaise"
+        android:text="Up Right Rows"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:onClick="upRightRows"/>
+
+
+</RelativeLayout>
